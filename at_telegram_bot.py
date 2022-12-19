@@ -5,7 +5,7 @@ import numpy as np
 
 
 # token that we get from the BotFather
-TOKEN = "5877665628:AAG4a7obdKYTFUMveQhYclWDnckW1iEKewc"
+TOKEN = "put your token here"
 
 app = Flask(__name__)
 
@@ -338,17 +338,3 @@ def index():
 if __name__ == '__main__':
     app.run(threaded=True)
 
-
-## respond politely
-#        elif any(i in ai.text for i in ["thank", "thanks"]):
-#            res = np.random.choice(
-#                ["My pleasure", "you're welcome!", "anytime!", "no problem!", "cool!", "I'm here if you need me!", "don't mention"])
-
-#        elif any(i in ai.text for i in ["exit", "close"]):
-#            res = np.random.choice(["Have a good day", "Bye", "Goodbye", "Cheers!"])
-
-#            ex = False
-#        ## conversation
-#        else:
-#            if ai.text == "ERROR":
-#                res = "Sorry, come again?"
