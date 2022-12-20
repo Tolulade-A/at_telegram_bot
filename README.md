@@ -3,8 +3,7 @@
 [![Medium Follow](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://medium.com/@tolulade-ademisoye)
 
 In this project, I built a Telegram bot, the bot can get text messages, an image, a video, audio, and 
-also a file/document. In addition, we will see how we can get the data [image, video, audio, 
-and file] sharing to the bot at the server-side in a computer.
+also a file/document. 
 
 
 ## Bot Features [Expected responses.]
